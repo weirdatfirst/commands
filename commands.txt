@@ -9,3 +9,5 @@ connect with mounted drive rdesktop using the -r disk flag [rdesktop (ip) -r dis
 share drive mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 sqlmap -r /root/request.txt --level=5 --risk=3
 wfuzz -c --hw 716 --hc 404,301 -w /root/bugbounty/bluejeans.com/ https://bluejeans.com/FUZZ  
+bash for loop: for i in {1..5}; do COMMAND-HERE; done
+echo 123 | xclip -sel clip
