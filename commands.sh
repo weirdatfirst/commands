@@ -1,3 +1,4 @@
 #!/bin/bash
 # Description: Commands - Output common command syntax
-cat commands.txt | grep $1
+path="/root/tools/commands/"
+cat ${path}commands.txt | grep $1
